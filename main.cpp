@@ -4,12 +4,12 @@ Type your name and student ID here
 	- Student ID: 1155126304
 */
 
-#include "Dependencies/glew/glew.h"
-#include "Dependencies/GLFW/glfw3.h"
+#include "Dependencies/include/glew/glew.h"
+#include "Dependencies/include/GLFW/glfw3.h"
 
-#include "Dependencies/glm/glm.hpp"
-#include "Dependencies/glm/gtc/matrix_transform.hpp"
-
+#include "Dependencies/include/glm/glm.hpp"
+#include "Dependencies/include/glm/gtc/matrix_transform.hpp"
+	
 #include <iostream>
 #include <fstream>
 #include <math.h>
@@ -2672,7 +2672,7 @@ void initializedGL() {
 	installShaders();
 }
 
-int main(int argc, char* argv[]) {
+int main() {
 	GLFWwindow* window;
 
 	/* Initialize the glfw */
